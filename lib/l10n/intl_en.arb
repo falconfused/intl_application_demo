@@ -1,0 +1,47 @@
+{
+    "@@locale": "en",
+    "pageHomeListTitle": "Some localized strings:",
+    "Title":"Intl Demo Application",
+    "pageHomeSamplePlaceholder": "Welcome {name}",
+    "pageHomeSamplePlaceholdersOrdered": "My name is {lastName}, {firstName} {lastName}",
+    "@pageHomeSamplePlaceholdersOrdered": {
+      "placeholders": {
+        "firstName": {},
+        "lastName": {}
+      }
+    },
+    "pageHomeSamplePlural": "{howMany, plural, one{You have 1 message} other{You have {howMany} messages}}",
+    "@pageHomeSamplePlural": {
+      "placeholders": {
+        "howMany": {
+          "type": "int"
+        }
+      }
+    },
+    "pageHomeSampleTotalAmount": "Total: {total}",
+    "@pageHomeSampleTotalAmount": {
+      "placeholders": {
+        "total": {
+          "type": "double",
+          "format": "currency",
+          "optionalParameters": {
+            "symbol": "$",
+            "decimalDigits": 2
+          }
+        }
+      }
+    },
+    "pageHomeSampleCurrentDateTime": "Date: {date} Time: {time}",
+    "@pageHomeSampleCurrentDateTime": {
+      "placeholders": {
+        "date": {
+          "type": "DateTime",
+          "format": "yMd"
+        },
+        "time": {
+          "type": "DateTime",
+          "format": "Hm"
+        }
+      }
+    }
+  }

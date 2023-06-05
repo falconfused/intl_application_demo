@@ -1,0 +1,47 @@
+{
+  "@@locale": "fr",
+  "pageHomeListTitle": "Quelques chaînes localisées :",
+  "Title": "Application de démonstration Intl",
+  "pageHomeSamplePlaceholder": "Bienvenue {name}",
+  "pageHomeSamplePlaceholdersOrdered": "Mon nom est {lastName}, {firstName} {lastName}",
+  "@pageHomeSamplePlaceholdersOrdered": {
+    "placeholders": {
+      "firstName": {},
+      "lastName": {}
+    }
+  },
+  "pageHomeSamplePlural": "{howMany, plural, one{Vous avez 1 message} other{Vous avez {howMany} messages}}",
+  "@pageHomeSamplePlural": {
+    "placeholders": {
+      "howMany": {
+        "type": "int"
+      }
+    }
+  },
+  "pageHomeSampleTotalAmount": "Total : {total}",
+  "@pageHomeSampleTotalAmount": {
+    "placeholders": {
+      "total": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "symbol": "€",
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "pageHomeSampleCurrentDateTime": "Date : {date} Heure : {time}",
+  "@pageHomeSampleCurrentDateTime": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      },
+      "time": {
+        "type": "DateTime",
+        "format": "Hm"
+      }
+    }
+  }
+}
